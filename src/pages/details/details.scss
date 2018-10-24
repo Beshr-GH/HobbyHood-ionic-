@@ -1,0 +1,73 @@
+page-details {
+
+}
+
+.object-fit_fill { object-fit: fill }
+img { height: 300px; background-color: #444;}
+
+img[class] { 
+  width: 100%;
+}
+
+.image{
+    position: relative;
+}
+
+.btnBetail{
+    font-family: 'Tajawal', sans-serif !important;
+    height: 60px !important;
+    color: black !important;
+}
+
+
+.btnBetail{
+    text-align: center;
+    
+}
+
+.Card{
+    height: 150px;
+}
+
+.ionicon{
+    color: #38ADA9 !important;
+    font-size: 30px;
+}
+
+label{
+    text-align: center;
+}
+
+.subTitle{
+    color: rgb(128, 128, 128) !important;
+
+}
+
+.Header1{
+    color: #38ADA9 !important;
+    font-size: 24px !important;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.Header2{
+    color: #38ADA9 !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+ }

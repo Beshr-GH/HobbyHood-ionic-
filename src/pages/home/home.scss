@@ -1,0 +1,35 @@
+page-home{
+    ion-content{
+        background-image: url("../../assets/imgs/introWallpaper.png") !important;
+        background-repeat:repeat !important;
+        background-size: 400px 399px;
+    }
+
+    .no-scroll .scroll-content{
+        overflow: hidden;
+   }
+}
+
+.footerToolbar{
+    height: 250px;
+}
+
+.btnHome{
+    width: 300px;
+    text-align: center;
+    margin-left:35px;
+    margin-right: 35px;
+    color: #38ADA9 !important;
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+.segment {
+	box-shadow: 0 22px 59px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+}
+
+.LogoBtn{
+    background-color: #ffffff;
+    margin-top:50px;
+}
+

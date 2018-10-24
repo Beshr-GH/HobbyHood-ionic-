@@ -1,0 +1,60 @@
+page-signup {
+    ion-content{
+        background-image: url("../../assets/imgs/introWallpaperBlured.png") !important;
+        background-repeat:repeat !important;
+        //background-size: 400px 399px;
+    }
+
+    .no-scroll .scroll-content{
+        overflow: hidden;
+   }
+}
+
+*{
+    direction: rtl;
+}
+
+.headerLogin{
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+ion-list{
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+ion-item,ion-label{
+    background: transparent !important;
+    --ion-color-base: transparent !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+}
+
+.login{
+    font-family: 'Tajawal', sans-serif !important;
+    color: #86ADA9 !important;
+    font-weight: bolder !important;
+}
+
+.forgotPass{
+    font-family: 'Tajawal', sans-serif !important;
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+    padding-top: 27px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+a:hover{
+    color: #86ADA9;
+}
+
+.footerLogin{
+    font-family: 'Tajawal', sans-serif !important;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+}

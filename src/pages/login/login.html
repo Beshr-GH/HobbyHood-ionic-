@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar color="light_gn">
+    <ion-title>
+      <p class="headerLogin">تسجيل الدخول</p>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+  <ion-list>
+    <ion-item>
+      <ion-label floating>البريد الإلكتروني</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label floating>الكلمة السرية</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6><button ion-button color="light" round large class="login" (click)="gotoBrowse()">تسجيل الدخول</button></ion-col>
+
+      <ion-col col-6>
+        <h4 class="forgotPass"><a>نسيت الكلمة السرية</a></h4>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="light_gn">
+    <ion-title><h4 class="footerLogin" (click)="gotoSignup()">ليس لديك حساب؟ يمكنك تنشئ حساب هنا</h4></ion-title>
+  </ion-toolbar>
+</ion-footer>
