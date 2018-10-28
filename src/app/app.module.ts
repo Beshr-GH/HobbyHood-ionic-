@@ -10,6 +10,7 @@ import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
 import { BrowsePage } from '../pages/browse/browse';
 import { DetailsPage } from '../pages/details/details';
+import { PaymentPage } from '../pages/payment/payment';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DetailsPage } from '../pages/details/details';
     SignupPage,
     BrowsePage,
     DetailsPage,
+    PaymentPage
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,7 @@ import { DetailsPage } from '../pages/details/details';
     SignupPage,
     BrowsePage,
     DetailsPage,
+    PaymentPage
   ],
   providers: [
     StatusBar,

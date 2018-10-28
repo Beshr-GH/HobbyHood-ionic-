@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-toolbar color="light_gn">
+    <ion-title>طريقة الدفع</ion-title>
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-toolbar color="light_gr">
+    <ion-title>
+      <h5 class="subTitle">تذكرتك</h5>
+    </ion-title>
+  </ion-toolbar>
+
+  <div>
+    <p id="TicketTitle">Sham SUMMER EXIHIBITION</p>
+    <br>
+    <ion-item>
+      <ion-label id="ticketLabel">عدد التذاكر</ion-label>
+      <ion-select class="selectNum" [(ngModel)]="numberofTickets" okText="موافق" cancelText="إلغاء">
+        <ion-option value="1">1</ion-option>
+        <ion-option value="2">2</ion-option>
+        <ion-option value="3">3</ion-option>
+        <ion-option value="4">4</ion-option>
+        <ion-option value="5">5</ion-option>
+        <ion-option value="6">6</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <p>الإجمالي</p>
+        </ion-col>
+        <ion-col>
+          <p>0 SYP</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p>ضريبة الدفع</p>
+        </ion-col>
+        <ion-col>
+          <p>0 SYP</p>
+        </ion-col>
+      </ion-row>
+      <hr id="pay">
+      <ion-row>
+        <ion-col>
+          <p>الصافي</p>
+        </ion-col>
+        <ion-col>
+          <p>0 SYP</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-toolbar color="light_gr">
+      <ion-title>
+        <h5 class="subTitle">طريقة الدفع</h5>
+      </ion-title>
+    </ion-toolbar>
+    <ion-list radio-group>
+      <ion-item>
+        <ion-label class="radioPay">بطاقة تسديد</ion-label>
+        <ion-radio color="light_gn" class="radioPayBtn" checked="true" value="بطاقة تسديد"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label class="radioPay">زيارة احد مراكز البيع</ion-label>
+        <ion-radio color="light_gn" value="زيارة احد مراكز البيع"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label class="radioPay">توصيل</ion-label>
+        <ion-radio color="light_gn" value="توصيل"></ion-radio>
+      </ion-item>
+    </ion-list>
+    <div class="btn-wrapper">
+      <button ion-button color="light" class="payBtn" round>وضع الطلب</button>
+    </div>
+    <br>
+    <ion-toolbar color="light_gn">
+    </ion-toolbar>
+  </div>
+
+</ion-content>
