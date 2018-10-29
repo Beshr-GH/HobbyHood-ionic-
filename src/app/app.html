@@ -1,2 +1,60 @@
 <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
-<ion-nav [root]="rootPage"></ion-nav>
+
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="light_gn">
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div id="UpperMenu">
+      <ion-avatar>
+        <img src="../assets/imgs/Jalal.jpg" id="img">
+      </ion-avatar>
+      <h3>Jalal Al-Deen</h3>
+      <button ion-button round outline color="light_gn">تعديل الحساب الشخصي</button>
+    </div>
+    <hr id="line">
+    <ion-list>
+      <button ion-item>
+        <ion-label class="MenuBtn">
+          <ion-icon name="search" class="MenuIcon"></ion-icon>
+          بحث عن الفعاليات
+
+        </ion-label>
+      </button>
+      <button ion-item class="MenuBtn">
+        <ion-label class="MenuBtn">
+          <ion-icon ios="ios-star" md="md-star" class="MenuIcon"></ion-icon>
+          الفعاليات المفضلة
+        </ion-label>
+      </button>
+      <button ion-item class="MenuBtn">
+        <ion-label class="MenuBtn">
+          <ion-icon name="checkmark-circle" class="MenuIcon"></ion-icon>
+          التذاكر المشتراة
+        </ion-label>
+      </button>
+      <button ion-item class="MenuBtn">
+        <ion-label class="MenuBtn">
+          <ion-icon name="add-circle" class="MenuIcon"></ion-icon>
+          إنشاء فعالية
+        </ion-label>
+      </button>
+      <button ion-item class="MenuBtn">
+        <ion-label class="MenuBtn">
+          <ion-icon name="pin" class="MenuIcon"></ion-icon>
+          فعاليات قد تهتم بها
+        </ion-label>
+      </button>
+      <button ion-item class="MenuBtn">
+        <ion-label class="MenuBtn">
+          <ion-icon ios="ios-settings" md="md-settings" class="MenuIcon"></ion-icon>
+          الإعدادات
+        </ion-label>
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
